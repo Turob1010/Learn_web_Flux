@@ -95,3 +95,18 @@
 2021-09-10 [reactor-http-nio-3] INFO  update product method access - | request(unbounded)
 2021-09-10 [nioEventLoopGroup-3-3] INFO  update product method access - | onComplete()
 2021-09-10 [SpringApplicationShutdownHook] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:3, serverValue:20}] to localhost:27017 because the pool has been closed.
+2021-09-10 [main] INFO  c.s.l.LearnWebFluxApplication - Starting LearnWebFluxApplication using Java 16.0.2 on WIN-BUOCFTEJO93 with PID 6364 (C:\Users\user\Downloads\library_book-master\Learn_web_Flux\target\classes started by user in C:\Users\user\Downloads\library_book-master\Learn_web_Flux)
+2021-09-10 [main] INFO  c.s.l.LearnWebFluxApplication - No active profile set, falling back to default profiles: default
+2021-09-10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Reactive MongoDB repositories in DEFAULT mode.
+2021-09-10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 91 ms. Found 1 Reactive MongoDB repository interfaces.
+2021-09-10 [main] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms'}
+2021-09-10 [cluster-rtt-ClusterId{value='613afe0f71b51a271515b3f1', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:1, serverValue:21}] to localhost:27017
+2021-09-10 [cluster-ClusterId{value='613afe0f71b51a271515b3f1', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:2, serverValue:22}] to localhost:27017
+2021-09-10 [cluster-ClusterId{value='613afe0f71b51a271515b3f1', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster - Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=13, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=98853399}
+2021-09-10 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 9093
+2021-09-10 [main] INFO  c.s.l.LearnWebFluxApplication - Started LearnWebFluxApplication in 3.957 seconds (JVM running for 5.925)
+2021-09-10 [reactor-http-nio-3] INFO  update product method access - | onSubscribe([Fuseable] FluxMapFuseable.MapFuseableSubscriber)
+2021-09-10 [reactor-http-nio-3] INFO  update product method access - | request(unbounded)
+2021-09-10 [nioEventLoopGroup-3-3] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:23}] to localhost:27017
+2021-09-10 [nioEventLoopGroup-3-3] INFO  update product method access - | onNext(ProductDto(id=613a435e349e9e513a55cf21, name=tttttttt, qty=2, price=125500.0))
+2021-09-10 [nioEventLoopGroup-3-3] INFO  update product method access - | onComplete()

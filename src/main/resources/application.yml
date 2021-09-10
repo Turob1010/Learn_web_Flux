@@ -7,6 +7,9 @@ spring:
 
 server:
   port: 9093
-
-
-
+logging:
+  pattern:
+    file: %d{yyyy-MM-dd } [%thread] %-5level %logger{36} - %msg%n
+  file:
+    path: = /
+    name: log.txt
